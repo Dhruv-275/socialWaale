@@ -32,3 +32,10 @@ Thumbs.db
 
 # Old Git history backup
 .git-backup/
+
+# Nested Git history backups
+**/.git-backup/
+
+# Local CMS data - do not upload
+backend/data/cms-store.json
+frontend/data/cms-store.json
